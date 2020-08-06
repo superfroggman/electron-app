@@ -12,6 +12,9 @@ function createWindow () {
 
   // and load the index.html of the app.
   win.loadFile('index.html')
+
+  win.setMenuBarVisibility(false)
+  win.setIcon("icon.png")
 }
 
 app.whenReady().then(createWindow)
